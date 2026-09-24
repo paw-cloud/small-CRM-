@@ -1,0 +1,7 @@
+# wynik przygotuj.ps1 zawiera adres i klucz projektu: nie wysyłaj go do repozytorium
+GOTOWE/
+
+# pliki systemowe
+Thumbs.db
+Desktop.ini
+.DS_Store

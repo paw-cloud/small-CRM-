@@ -1,0 +1,18 @@
+Paczka startowa CRM
+Zbudowano: 2026-09-24 17:28
+Wersja aplikacji (skrót pliku app.js): 3b939e062a66
+
+Funkcje: zapytania z grupami i terminami, archiwum, strona klienta (obecnie i archiwalnie), filtr okresu i sortowanie,
+przycisk "Co nowego" (okienko z podsumowaniem zmian), odhaczanie zadań z terminem ("Zrobione" + "Cofnij"), archiwum zamiast usuwania zapytań (blokada także w bazie), pasek "Dzisiaj" (po terminie, na dziś, bez ruchu), firmy i kontakty, notatki, plan tygodnia w PDF zgodny z ekranem (z wyborem folderu zapisu na komputerze), przypomnienia w Kalendarzu Google,
+wskaźnik zapisu i odświeżanie na żywo, eksport do CSV, aplikacja na telefonie,
+pełna kopia zapasowa (JSON) z przypomnieniem, historia zmian, ostrzeżenie o równoczesnej edycji,
+funkcja ping() do monitoringu bazy, przypięta biblioteka z kontrolą integralności i nagłówki bezpieczeństwa,
+podpowiedzi przy wpisywaniu (klient, kraj z kodem, imię, stanowisko), przycisk powrotu na stronę główną na podstronach,
+baner dodania aplikacji do ekranu głównego telefonu, zwarte karty zapytań na telefonie (w Archiwum bez pola Następny krok),
+podpowiedź o pasujących zapytaniach w drugiej zakładce (aktualne / archiwum),
+notatka głosowa jako dodatkowy sposób dodawania notatek (przycisk z mikrofonem, skrót na ikonie w Androidzie),
+numeracja porządkowa (Lp.) zapytań na liście, ciągła przez wszystkie grupy.
+
+Aktualizacja do nowszej wersji: zob. START-TUTAJ.html, rozdział "Aktualizacja do nowszej wersji paczki".
+
+Paczka TESTOWA: zawiera dodatkowo opcjonalne prywatne zadania właściciela (przycisk "Moje zadania", osobne konto z własnym kodem, tabela my_tasks).

@@ -1,0 +1,28 @@
+PROMPT DO WKLEJENIA W CLAUDE
+(Claude Code / aplikacja Claude z dostępem do folderu. Otwórz w nim rozpakowany folder CRM-starter
+i wklej poniższy tekst jako pierwszą wiadomość.)
+
+------------------------------------------------------------------------------------------
+
+Mam w tym folderze gotową paczkę startową własnego CRM dla mojej firmy (aplikacja w przeglądarce,
+dane w darmowym Supabase, strona w darmowym Cloudflare, dostęp przez link z tajnym kodem, bez
+indywidualnych kont). Przeprowadź mnie krok po kroku przez uruchomienie. Przeczytaj najpierw
+START-TUTAJ.html oraz pliki w folderach strona i supabase.
+
+Zasady pracy:
+1. Odpowiadaj po polsku, prostym językiem. Zakładaj, że nie jestem programistą.
+2. Prowadź mnie po jednym kroku naraz i czekaj, aż napiszę, że zrobiłem. Nie wypisuj wszystkich kroków naraz.
+3. Konta w Supabase i Cloudflare zakładam sam. Nie proś mnie o hasła, kody dostępu, klucze
+   "secret" ani "service_role" i nie przyjmuj ich. Jeśli je wkleję, powiedz, żebym tego nie robił.
+   Mogę Ci pokazać tylko Project URL i klucz "publishable" (są publiczne z założenia).
+4. Kiedy uruchomię URUCHOM.bat, pomóż mi wypełnić pytania (nazwa firmy, adres e-mail konta
+   dostępowego, Project URL, klucz publishable).
+5. Po wdrożeniu koniecznie sprawdź ze mną bezpieczeństwo: uruchom SPRAWDZ.bat albo sprawdz.ps1
+   i upewnij się, że rejestracja nowych użytkowników jest wyłączona oraz że bez logowania nie da się
+   odczytać żadnych danych. Nie kończ pracy, dopóki wynik nie będzie w porządku.
+6. Nie wysyłaj nikomu wiadomości, niczego nie publikuj i niczego nie kupuj w moim imieniu.
+7. Gdy coś się nie uda, poproś o zrzut ekranu lub treść komunikatu i znajdź przyczynę,
+   zamiast zgadywać.
+
+Na końcu: pokaż mi, jak zbudować link z kodem dostępu, jak dodać aplikację do ekranu głównego
+telefonu, jak pobrać plan tygodnia w PDF i jak co miesiąc zrobić kopię zapasową (zakładka Eksport).

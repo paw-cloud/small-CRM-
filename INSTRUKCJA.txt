@@ -1,0 +1,265 @@
+WŁASNY CRM DLA TWOJEJ FIRMY - INSTRUKCJA (WERSJA TEKSTOWA)
+==========================================================
+
+To jest wersja tekstowa instrukcji z pliku START-TUTAJ.html (tam są też zrzuty ekranu).
+Koszt: 0 zł. Czas uruchomienia: ok. 1-1,5 godziny. Nie trzeba umieć programować.
+
+
+CO DOSTAJESZ
+------------
+- Zapytania (lub projekty) w trzech grupach: wymaga działania / do przypomnienia / czekamy,
+  z numerem, datą, klientem, krajem, opisem, następnym krokiem i terminem.
+  Opis, termin i grupę zmieniasz prosto z listy. Zmiany zapisują się same.
+- Numeracja porządkowa (Lp.): wąska kolumna po lewej numeruje zapytania na liście ciągle,
+  przez wszystkie grupy (1, 2, 3...). Ostatni numer to łączna liczba zapytań na liście.
+  Po przeniesieniu zapytania do innej grupy zmienia się liczba w grupach, a łączna zostaje.
+- Archiwum zamiast usuwania (zapytanie można w każdej chwili przywrócić do wybranej grupy)
+  oraz strona klienta: ile zapytań ma on teraz, a ile w archiwum. Filtr okresu i sortowanie.
+- Wyszukiwarka, która podpowiada pasujące zapytania także w drugiej zakładce
+  (aktualne / archiwum).
+- Firmy i osoby kontaktowe powiązane z zapytaniami, notatki (rozmowa, e-mail, spotkanie).
+- Historia zmian (kto, kiedy i co zmienił) przy zapytaniu, firmie i kontakcie oraz
+  ostrzeżenie, gdy dwie osoby zmieniają to samo pole jednocześnie.
+- Podpowiedzi przy wpisywaniu klientów, krajów (kod kraju uzupełnia się sam), imion,
+  nazwisk i stanowisk.
+- Terminy: zaległe i dzisiejsze zapytania są na górze listy. Przycisk "Dodaj do Kalendarza
+  Google" tworzy gotowe wydarzenie.
+- Odhaczanie zadań: przy zapytaniach z terminem na dziś lub po terminie jest pole wyboru (w karcie
+  "Termin dziś lub po terminie" na górze listy) oraz przycisk "✓ Zrobione" (w wierszu listy i w
+  karcie zapytania). Odhaczenie zdejmuje termin: zapytanie zostaje w swojej grupie, a nowy
+  następny krok i termin ustawiasz jak zwykle. W komunikacie jest przycisk "Cofnij". Wydarzenia,
+  które wcześniej dodałeś do Kalendarza Google, usuwasz tam ręcznie.
+- Zapytań nie usuwa się: przycisk "Przenieś do archiwum" w karcie zapytania (zob. niżej).
+- Moje zadania (prywatne, w tej paczce włączone): przycisk w pasku u góry (widoczny po wpisaniu drugiego kodu pod adresem .../#/moje) otwiera prywatną listę zadań niezwiązanych z żadnym projektem, czyli własny kalendarz i przypomnienia. Niezrobione zadanie z datą w przeszłości pokazuje się jako "na dziś", aż je odhaczysz. Widzi je tylko osoba znająca drugi kod (osobna, chroniona tabela w bazie).
+- Przycisk "Co nowego" obok "Dodaj zapytanie": liczba przy nim mówi, w ilu zapytaniach coś się
+  zmieniło. Kliknięcie otwiera okienko (tylko do czytania) z podglądem zmian: przy każdym zapytaniu
+  (klient i numer) są tylko NOWE rzeczy, każda z datą i godziną: gdy dopiszesz coś do istniejącego
+  tekstu, widać tylko dopisane słowa (np. "Następny krok - dopisano: Po spotkaniu."), gdy
+  zmienisz cały tekst, nowy tekst. Poza tym "Termin: <nowa data>", "Przeniesiono do archiwum"
+  albo treść nowej notatki. Poprzedniej treści nie pokazuje. Nowe zapytania mają oznaczenie "nowe". Pokazuje zmiany
+  WSZYSTKICH osób (bez nazwisk), także własne. Podsumowanie i licznik zostają widoczne przez całą
+  sesję, także po zamknięciu okienka, aż do odświeżenia strony albo zamknięcia aplikacji. Po
+  ponownym wejściu zobaczysz tylko to, co zmieniło się od chwili, gdy okienko ostatnio otworzyłeś
+  (jeśli go nie otwierałeś, nowości się kumulują). Punkt odniesienia jest zapamiętany w danej
+  przeglądarce (osobno na komputerze i telefonie), a podsumowanie nie sięga dalej niż 14 dni wstecz.
+- Pasek "Dzisiaj" nad listą: trzy liczniki (Po terminie / Na dziś / Bez ruchu 14+ dni).
+  Kliknięcie licznika pokazuje tylko te zapytania, ponowne kliknięcie wraca do pełnej listy.
+  "Bez ruchu" to zapytania BEZ terminu, w których od 14 dni nic się nie zmieniło (ani samo
+  zapytanie, ani notatki). Zapytania z terminem w przyszłości są uznane za odłożone celowo.
+- Plan tygodnia w PDF jednym kliknięciem (wygląda tak jak tabela na ekranie).
+- Pełna kopia zapasowa jednym kliknięciem (plik JSON) i eksport do Excela (CSV).
+  Aplikacja sama przypomina o kopii, gdy minie 30 dni.
+- Praca zespołowa: zmiany innych osób pojawiają się same w ciągu ok. 20 sekund.
+- Notatka głosowa (DODATKOWY sposób dodawania notatek, zwykłe pisanie w karcie zapytania
+  działa bez zmian): okrągły przycisk z mikrofonem w rogu ekranu otwiera okno, w którym
+  wybierasz zapytanie i dyktujesz notatkę. Dyktowanie działa w Chrome na Androidzie oraz
+  w Chrome i Edge na komputerze (na iPhonie użyj mikrofonu z klawiatury). Rozpoznawanie
+  mowy robi przeglądarka, więc dyktowany dźwięk trafia do jej usługi (w Chrome do Google)
+  i wymaga internetu. Na Androidzie po przytrzymaniu ikony aplikacji jest też skrót
+  "Dodaj notatkę".
+- Działa na komputerze i telefonie (na telefonie zapytania są zwartymi kartami), także jako
+  ikona na ekranie głównym. Aplikacja sama podpowiada, jak ją dodać.
+- Na każdej podstronie jest mały przycisk ze strzałką, który wraca na stronę główną.
+- Dostęp przez link z tajnym kodem: nikt nie zakłada osobnych kont ani haseł.
+
+Jak to działa: dane leżą w Twoim własnym, darmowym koncie Supabase (baza), a strona w Twoim
+darmowym koncie Cloudflare. Ta paczka nie zawiera żadnych cudzych danych.
+
+
+CZEGO POTRZEBUJESZ
+------------------
+- Komputer z Windows 10 lub 11 (tylko do jednorazowego przygotowania plików).
+- Przeglądarkę i adres e-mail. Założysz dwa darmowe konta: Supabase i Cloudflare.
+  Karta płatnicza nie jest potrzebna.
+
+BEZPIECZEŃSTWO - PRZECZYTAJ KONIECZNIE:
+Każdy, kto ma Twój link z kodem, może czytać, zmieniać i usuwać dane. Wysyłaj go tylko
+zaufanym osobom i bezpiecznym kanałem. Krok 6 (wyłączenie rejestracji) jest obowiązkowy.
+Bez niego obca osoba mogłaby założyć konto i zobaczyć dane. Na końcu uruchomisz kontrolę,
+która sprawdzi to automatycznie.
+
+
+KROKI
+-----
+
+KROK 1. Rozpakuj paczkę
+  Prawy przycisk na pliku ZIP -> "Wyodrębnij wszystko". Nie uruchamiaj plików z podglądu ZIP.
+  Jeśli Windows blokuje pliki pobrane z internetu: przed rozpakowaniem kliknij ZIP prawym
+  przyciskiem -> "Właściwości" -> zaznacz "Odblokuj" -> OK.
+
+KROK 2. Załóż projekt w Supabase
+  1. Wejdź na supabase.com, kliknij "Start your project" i załóż konto (e-mail lub GitHub).
+  2. "New project": nazwa np. crm, kliknij "Generate a password" i zapisz to hasło
+     w menedżerze haseł, region "Central EU (Frankfurt)" (lub najbliższy), plan "Free".
+  3. Kliknij "Create new project" i poczekaj ok. 2 minut.
+
+KROK 3. Skopiuj dwie wartości z projektu
+  - Project URL: na ekranie głównym projektu, przycisk "Copy" przy adresie
+    https://...supabase.co
+  - Klucz Publishable: "Project Settings" (zębatka) -> "API Keys" -> sb_publishable_...
+    Jeśli widzisz tylko starszy klucz "anon" (zaczyna się od eyJ...), też jest dobry.
+  UWAGA: nigdy nie kopiuj kluczy oznaczonych "secret" ani "service_role". Dają pełny
+  dostęp do bazy. Skrypt z kroku 4 je odrzuci, ale nie wklejaj ich nigdzie.
+
+KROK 4. Uruchom przygotowanie plików
+  Kliknij dwukrotnie URUCHOM.bat i odpowiedz na cztery pytania:
+  nazwa firmy, adres e-mail wspólnego konta dostępowego (może być nieistniejący, np.
+  dostep@example.com; zapamiętaj go), Project URL i klucz publishable.
+  Powstanie folder GOTOWE z plikami: "do-publikacji" (strona), 1_schema_do_wklejenia.sql
+  i 2_dane_przykladowe_OPCJONALNIE.sql.
+  Jeśli Windows pokaże niebieskie okno "system Windows ochronił Twój komputer": kliknij
+  "Więcej informacji" -> "Uruchom mimo to". Skrypt jest zwykłym tekstem (możesz otworzyć
+  przygotuj.ps1 w Notatniku), niczego nie instaluje i nie wysyła do internetu.
+
+KROK 5. Utwórz tabele w bazie
+  1. W Supabase: "SQL Editor" -> "New query".
+  2. Otwórz w Notatniku plik 1_schema_do_wklejenia.sql, zaznacz całość (Ctrl+A), skopiuj
+     i wklej w okno zapytania.
+  3. Kliknij "Run". Ostrzeżenie o "destructive operations" możesz potwierdzić
+     (to nowa, pusta baza).
+  4. Oczekiwany wynik: "Success. No rows returned".
+  Chcesz najpierw obejrzeć, jak to wygląda? Uruchom w ten sam sposób plik z danymi
+  przykładowymi (zmyślone dane oznaczone "PRZYKŁAD": 5 firm, 6 osób kontaktowych, 8 zapytań
+  w grupach i w archiwum oraz kilka notatek). Zanim zaczniesz prawdziwą pracę, usuń je
+  poleceniem z końca tego pliku.
+
+KROK 6. Wyłącz rejestrację nowych użytkowników (OBOWIĄZKOWE)
+  1. Supabase: "Authentication" -> "Sign In / Providers".
+  2. Wyłącz przełącznik "Allow new users to sign up". "Allow anonymous sign-ins" ma zostać
+     wyłączone.
+  3. Kliknij "Save changes". Bez zapisania ustawienie nie działa.
+  4. NIE wyłączaj samego dostawcy "Email".
+
+KROK 7. Utwórz wspólne konto dostępowe
+  1. Supabase: "Authentication" -> "Users" -> "Add user" -> "Create new user".
+  2. Email: dokładnie ten adres, który wpisałeś w kroku 4.
+  3. Password: to jest Twój KOD DOSTĘPU. Wygeneruj długi (min. 20 znaków), tylko litery
+     i cyfry (bez znaków specjalnych, bo trafi do linku). Zapisz go w menedżerze haseł.
+  4. Zaznacz "Auto Confirm User" i kliknij "Create user".
+  (To hasło służy tylko do wpuszczania ludzi do CRM. To nie jest hasło do Twojego konta
+  Supabase.)
+
+KROK 8. Opublikuj stronę w Cloudflare
+  1. Wejdź na dash.cloudflare.com, załóż konto i potwierdź e-mail.
+  2. "Workers & Pages" -> "Create application" -> "Upload your static files"
+     (nazwy w panelu mogą się nieco różnić).
+  3. Nazwij projekt (bez polskich znaków) i wgraj WSZYSTKIE pliki z folderu
+     GOTOWE\do-publikacji: zaznacz je w Eksploratorze (Ctrl+A) i przeciągnij do okna.
+     Wgrywasz same pliki, nie cały folder. Ważne, żeby były wszystkie (u góry ma być
+     licznik "Uploading 9 total file(s)" lub więcej, jeśli dodałeś logo).
+  4. Kliknij "Deploy". Dostaniesz adres strony (np. https://crm.twojanazwa.workers.dev).
+  Żółte ostrzeżenie o "build process" i pliku JavaScript możesz zignorować.
+  Własne logo (opcjonalnie): przed wgraniem dodaj do folderu "do-publikacji" plik logo.svg
+  (prosty plik SVG, najlepiej szeroki, ok. 4:1). Bez niego aplikacja pokazuje nazwę firmy
+  zapisaną tekstem. Logo pojawia się w nagłówku aplikacji i w PDF z planem tygodnia.
+  Jeśli masz logo tylko jako PNG lub JPG, zamień je na SVG (np. bezpłatnym programem
+  Inkscape albo konwerterem internetowym) lub poproś o to Claude'a.
+  Własna ikona aplikacji (opcjonalnie): skrypt tworzy ikony automatycznie (pierwsza litera
+  nazwy firmy na czarnym tle). Możesz je podmienić przed wgraniem, wkładając do
+  "do-publikacji" własne pliki PNG o tych samych nazwach: icon-192.png (192x192),
+  icon-512.png (512x512) i apple-touch-icon.png (180x180). Nazwę firmy zmienisz później
+  w pliku config.js (pole COMPANY_NAME).
+
+KROK 9. Sprawdź bezpieczeństwo
+  Kliknij dwukrotnie SPRAWDZ.bat i wpisz adres opublikowanej strony. Kontrola sprawdza
+  z zewnątrz, czy rejestracja jest wyłączona i czy bez logowania nie da się odczytać żadnych
+  danych. Wynik musi brzmieć: "wszystko w porządku".
+  Dodatkowo otwórz sam adres strony w oknie prywatnym przeglądarki (Ctrl+Shift+N).
+  Ma pokazać się tylko ekran z prośbą o kod.
+
+KROK 10. Wejdź do aplikacji i udostępnij ją zespołowi
+  Twój link ma postać: adres strony + /#k= + kod dostępu, np.
+      https://crm.twojanazwa.workers.dev/#k=TwojKodDostepu
+  Po kliknięciu przeglądarka zapamięta dostęp, a kod zniknie z paska adresu. Przy pierwszym
+  wejściu aplikacja pyta o imię (podpisuje ono Twoje wpisy). Ten sam link wyślij osobom,
+  którym ufasz.
+  Telefon: otwórz link na telefonie. Na górze strony pojawi się baner "Dodaj CRM do ekranu
+  głównego telefonu". Na Androidzie ma przycisk "Zainstaluj aplikację", na iPhonie krótką
+  instrukcję (Udostępnij -> Dodaj do ekranu głównego). Na iPhonie aplikacja z ekranu
+  głównego poprosi raz o kod dostępu.
+  Komputer: w Chrome lub Edge kliknij ikonę instalacji w pasku adresu (albo menu ->
+  "Zainstaluj stronę jako aplikację"), żeby mieć ikonę na pulpicie.
+
+
+PRYWATNE ZADANIA WŁAŚCICIELA (W TEJ PACZCE WŁĄCZONE)
+----------------------------------------------------
+W tej wersji paczki działa też prywatna lista zadań (własny kalendarz i przypomnienia niezwiązane z żadnym
+projektem). Tabela powstaje razem z resztą bazy (plik 1_schema_do_wklejenia.sql), a plik
+2_dane_przykladowe_OPCJONALNIE.sql zawiera także przykładowe zadania. Dodatkowo:
+1. Przy piątym pytaniu w URUCHOM.bat zatwierdź Enterem adres prywatne@example.com albo wpisz własny
+   (może być nieistniejący, ale inny niż konto dostępowe). Myślnik "-" wyłącza tę funkcję.
+2. W Supabase: Authentication -> Users -> Add user -> Create new user. E-mail: adres konta prywatnego,
+   hasło: Twój prywatny kod (długi, inny niż kod dostępowy), zaznacz "Auto Confirm User".
+3. Po wgraniu strony otwórz jej adres z dopiskiem #/moje i wpisz prywatny kod. Przycisk "Moje zadania"
+   pojawi się w pasku u góry na tym urządzeniu (na każdym urządzeniu kod wpisujesz raz).
+SPRAWDZ.bat sprawdza też, że tabela prywatnych zadań jest zablokowana bez logowania. "Wyloguj" usuwa
+również sesję prywatną z danego urządzenia.
+NA CO DZIEŃ
+-----------
+- Nowe zapytanie: przycisk "Dodaj zapytanie". Grupę i termin zmieniasz na liście,
+  a szczegóły i notatki w karcie zapytania.
+- Plan tygodnia: przycisk "Plan tygodnia (PDF)" zapisuje plik z tabelą otwartych zapytań,
+  o nazwie "<Twoja firma> CRM tydzień <numer>-<rok>" (np. "Kowalski Meble CRM tydzień 38-2026").
+  Na komputerze (Chrome, Edge) program pyta, gdzie zapisać plik, i zapamiętuje ostatnio
+  wybrany folder, więc wszystkie plany możesz mieć w jednym miejscu. Na telefonie i w
+  innych przeglądarkach plik trafia do domyślnego folderu pobranych plików.
+- Przypomnienie w kalendarzu: ustaw termin i kliknij "+ Kalendarz Google". Wydarzenie jest
+  w dniu terminu o 8:00 (30 minut). Powiadomienie dostaje domyślne ustawienie Twojego
+  kalendarza (zwykle 10 minut przed). Żeby przyszło dokładnie o 8:00, ustaw w Kalendarzu
+  Google (ustawienia kalendarza, powiadomienia o wydarzeniach) powiadomienie "0 minut".
+- Kopia zapasowa: raz w miesiącu zakładka "Eksport" -> "Pobierz pełną kopię (JSON)".
+  Zapisz plik w bezpiecznym miejscu (nie tylko na tym komputerze). Darmowy plan Supabase
+  nie robi kopii automatycznie, dlatego aplikacja przypomina o niej banerem.
+- Zakończone zapytania przenoś do archiwum (menu "Przenieś do..."), nie usuwaj ich.
+
+
+AKTUALIZACJA DO NOWSZEJ WERSJI PACZKI
+-------------------------------------
+Numer wersji jest w pliku WERSJA.txt. Twoje dane w Supabase zostają nietknięte.
+1. Rozpakuj nową paczkę i kliknij URUCHOM.bat. Podaj TE SAME dane co poprzednio
+   (w tym ten sam adres e-mail konta dostępowego).
+2. W Supabase (SQL Editor) uruchom ponownie plik 1_schema_do_wklejenia.sql. Dodaje tylko
+   nowe kolumny lub reguły i niczego nie usuwa.
+3. Wgraj do Cloudflare WSZYSTKIE pliki z GOTOWE\do-publikacji (nigdy pojedyncze pliki:
+   uploader tworzy nową wersję tylko z tego, co mu podasz). Jeśli miałeś własne logo.svg,
+   dodaj je do tego folderu przed wgraniem. Potem odśwież stronę (Ctrl+F5).
+4. Uruchom SPRAWDZ.bat, żeby sprawdzić, że dane nadal są zabezpieczone.
+
+
+OGRANICZENIA I ZASADY
+---------------------
+- Darmowy Supabase usypia projekt po 7 dniach bez użycia. Przy codziennym użyciu to się nie
+  zdarza, a jednym kliknięciem ("Restore") w panelu Supabase projekt się wznawia.
+- Limit bazy: 500 MB. Na dane tekstowe wystarczy na bardzo długo.
+- Wszyscy z linkiem mogą wszystko. Nie ma osobnych kont ani ról. Imię wpisane przy pierwszym
+  wejściu podpisuje wpisy i historię zmian, ale to nie jest zabezpieczenie: każdy może wpisać
+  dowolne imię.
+- Zapytań nie da się usunąć: każde ma unikalny numer, więc usunięcie zostawiłoby dziurę w
+  historii. Zamiast tego jest przycisk "Przenieś do archiwum" (zapytanie zostaje tam na stałe,
+  można je przywrócić do wybranej grupy). Blokada działa także w bazie danych. Firmy, kontakty
+  i notatki usuwa się trwale (nie ma kosza).
+- Wyciek linku lub odejście osoby z zespołu: w Supabase usuń użytkownika dostępowego
+  i utwórz go ponownie z nowym kodem, po czym roześlij nowy link. Stare linki przestają
+  działać, a otwarte sesje wygasają zwykle w ciągu godziny.
+- Dane osobowe: to Ty jesteś administratorem danych wpisanych do CRM (RODO). Wpisuj tylko to,
+  co potrzebne, i usuwaj dane na uzasadnioną prośbę osoby.
+
+
+KIEDY COŚ NIE DZIAŁA
+--------------------
+- "Nieprawidłowy kod dostępu": sprawdź, czy w Supabase istnieje użytkownik z adresem e-mail
+  z kroku 4 i czy hasło jest takie samo jak kod w linku.
+- "Aplikacja nie jest jeszcze skonfigurowana": w folderze "do-publikacji" plik config.js ma
+  puste lub niewypełnione wartości. Uruchom ponownie URUCHOM.bat i wgraj pliki jeszcze raz.
+- Lista jest pusta albo zapis kończy się błędem: prawdopodobnie nie uruchomiono skryptu
+  z kroku 5. Uruchom 1_schema_do_wklejenia.sql jeszcze raz (można go uruchamiać wielokrotnie).
+- Komunikat o braku połączenia z serwerem: darmowy projekt Supabase mógł zostać uśpiony.
+  Wejdź w jego panel i kliknij "Restore".
+- Kontrola pokazuje "rejestracja jest WŁĄCZONA": wróć do kroku 6 i pamiętaj o kliknięciu
+  "Save changes".
+- Po wgraniu poprawek strona wygląda po staremu: odśwież ją z pominięciem pamięci
+  podręcznej (Ctrl+F5), na telefonie zamknij kartę i otwórz link jeszcze raz.
+
+Wolisz, żeby ktoś Cię poprowadził? Otwórz rozpakowany folder w Claude (Claude Code lub
+aplikacja Claude z dostępem do folderu) i wklej treść pliku PROMPT_DLA_CLAUDE.txt.
+Claude przeprowadzi Cię przez kroki i pomoże przy błędach. Kont i haseł i tak założysz sam.
